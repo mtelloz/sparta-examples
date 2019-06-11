@@ -51,7 +51,7 @@ class TokenizerTransformStepBatch(
     if (outputField2.isEmpty) {
       validation = ValidationResult(
         valid = false,
-        messages = validation.messages :+ "Specify an option key 'outputField2' with the name of the second column")
+        messages = validation.messages :+ "Specify an option key 'outputField2' with the name of the second  column")
     }
 
     validation
